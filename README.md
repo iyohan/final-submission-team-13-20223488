@@ -12,7 +12,7 @@ Gesture estimation, a research topic in Human-Computer Interaction, seeks to dis
 Therefore, this project proposes a gestural control system for music players suited for runners. The system, intuitive and functional even with sweaty hands, bypasses the constraints of static gesture estimation, utilizing IMU sensors to adapt to the dynamic conditions of running.
 
 ### 1-2. Project Overview
-This project, "Gestural Control of Music Players For Runners" is designed to utilize gesture estimation techniques to provide an intuitive method of controlling music players, even in the dynamic environment of running. It uses a 6-DoF IMU (accelerometer and gyroscope) and two sEMG sensors to capture acceleration, angular velocity, and muscle response or electrical activity at the wrist of a user, and estimate different gestures and use it to control a music player app. It uses EMG sensor readings that are robust to the movement while running as a trigger to detect if the current motion is controlling the gesture or not. 
+This project, "Gestural Control of Music Players for Runners" is designed to utilize gesture estimation techniques to provide an intuitive method of controlling music players, even in the dynamic environment of running. It uses a 6-DoF IMU (accelerometer and gyroscope) and two sEMG sensors to capture acceleration, angular velocity, and muscle response or electrical activity at the wrist of a user, and estimate different gestures and use it to control a music player app. It uses EMG sensor readings that are robust to the movement while running as a trigger to detect if the current motion is controlling the gesture or not. 
 
 ![system_components](./img/fig_system_component.png)
 ![system_design](./img/fig_system_design.png)
